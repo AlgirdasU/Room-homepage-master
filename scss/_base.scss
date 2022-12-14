@@ -1,1 +1,71 @@
-// PRAIMARY COLORS
+:root {
+  // PRAIMARY COLORS
+  --dark-gray: hsl(0, 0%, 63%);
+  --black: #000000;
+  --white: hsl(0, 0%, 100%);
+  --very-dark-gray: hsl(0, 0%, 27%);
+  --light-grey: hsl(0, 0%, 89%);
+
+  // TYPOGRAPHY
+  --par-font-size: 1.6rem;
+  --h1-font-size: clamp(4rem, 3.5vw, 4.5rem);
+
+
+  // FONT
+  --primary-font-family: "League Spartan", sans-serif;
+  --font-w-medium: 500;
+  --font-w-semi-bold: 600;
+  --font-w-bold: 700;
+
+  // DESKTOP WIDTH
+  --desktop-width: 144rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: inline-block;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%;
+}
+body {
+  font-family: var(--primary-font-family);
+  line-height: 1.6;
+  font-size: var(--par-font-size);
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr minmax(30rem, 144rem) 1fr;
+  grid-template-rows: repeat(4, min-content);
+  position: relative;
+}
+
+// It istriggered when the user clicks or taps on an element or selects it with the keyboard's TAB.
+*:focus {
+  outline: none;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0 0.4rem rgba(90, 81, 70, 0.5);
+}
+
+// Applies styles to the part of a document that has been highlight
+::selection {
+  background-color: var(--very-dark-gray);
+  color: #fff;
+}
