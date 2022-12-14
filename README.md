@@ -78,4 +78,4 @@ I've learned how to make the image/text slide to the left or right using screen 
 - Twitter - [@AlgirdasDdd](https://twitter.com/algirdasddd)
 
 ## Acknowledgments
-Jonas Schmedtmann courses helped my write this code. Thanks.
+Jonas Schmedtmann courses helped me write this code. Thanks.
