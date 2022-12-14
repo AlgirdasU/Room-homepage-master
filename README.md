@@ -73,9 +73,5 @@ I've learned how to make the image/text slide to the left or right using screen 
 - Frontend Mentor - [@Algirdase](https://www.frontendmentor.io/profile/AlgirdasU)
 - Twitter - [@AlgirdasDdd](https://twitter.com/algirdasddd)
 
-- Website - [Algirdas](https://github.com/AlgirdasU/Room-homepage-master)
-- Frontend Mentor - [@Algirdase](https://www.frontendmentor.io/profile/AlgirdasU)
-- Twitter - [@AlgirdasDdd](https://twitter.com/algirdasddd)
-
 ## Acknowledgments
 Jonas Schmedtmann courses helped me write this code. Thanks.
