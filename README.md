@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/AlgirdasU/Room-homepage-master)
-- Live Site URL: (https://beautiful-vacherin-cc2dc1.netlify.app/)
+- Live Site URL: (https://whimsical-kashata-9c2d86.netlify.app/)
 
 ## My process
 
